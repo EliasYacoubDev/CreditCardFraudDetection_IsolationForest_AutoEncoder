@@ -27,11 +27,10 @@ checkpoint
 saved_model/
 
 # Data files (optional, keep only if necessary)
-*.csv
+*_scaled.csv
 *.tsv
 *.xls
 *.xlsx
-data/creditcard.csv
 
 # Temporary files
 *.tmp
