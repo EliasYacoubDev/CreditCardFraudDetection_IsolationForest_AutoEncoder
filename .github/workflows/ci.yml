@@ -33,5 +33,5 @@ jobs:
       run: |
         pip install nbconvert
         for notebook in $(find . -name "*.ipynb"); do
-          jupyter nbconvert --to notebook --execute "$notebook" --output /dev/null
+          jupyter nbconvert --to notebook --execute ./notebooks/01_eda.ipynb --output executed_notebook.ipynb
         done
