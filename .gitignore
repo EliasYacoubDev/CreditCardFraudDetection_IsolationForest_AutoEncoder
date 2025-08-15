@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TensorFlow & Keras model files
+*.h5
+*.ckpt
+checkpoint
+saved_model/
+
+# Data files (optional, keep only if necessary)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+data/creditcard.csv
+
+# Temporary files
+*.tmp
+*.temp
+
+# VSCode / IDE settings
+.vscode/
+.idea/
